@@ -24,7 +24,7 @@ const CategoryExplorer: React.FC = () => {
     },
     {
       id: 3,
-      image: 'https://drive.google.com/file/d/1dTwoppnFkjcbZ5_rZwGn5znX2t9dUYGP/view?usp=drive_link',
+      image: 'https://i.ibb.co/5h9RVFQh/shoe.jpg',
       title: 'Travel Essentials',
       description: 'Luxury companions for your journey'
     },
