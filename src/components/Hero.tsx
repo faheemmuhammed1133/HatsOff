@@ -15,19 +15,19 @@ const Hero: React.FC = () => {
   const slides: SlideData[] = [
     {
       id: 1,
-      image: 'dist/assets/fall.jpg',
+      image: 'src/assets/fall.jpg',
       title: 'Fall Collection 2025',
       subtitle: 'Timeless Elegance in Every Detail',
     },
     {
       id: 2,
-      image: 'dist/assets/sign.jpg',
+      image: 'src/assets/sign.jpg',
       title: 'Signature Series',
       subtitle: 'Where Luxury Meets Craftsmanship',
     },
     {
       id: 3,
-      image: 'dist/assets/shoe.JPG',
+      image: 'src/assets/shoe.JPG',
       title: 'Limited Edition',
       subtitle: 'Exclusively Crafted for the Discerning',
     },
