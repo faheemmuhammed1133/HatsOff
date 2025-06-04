@@ -15,14 +15,14 @@ const FeaturedCollections: React.FC = () => {
   const collections: Collection[] = [
     {
       id: 1,
-      image: 'dist/assets/class.JPG',
+      image: 'src/assets/class.JPG',
       title: 'The Classic Tote',
       category: 'Signature Collection',
       price: '₹1,890'
     },
     {
       id: 2,
-      image: 'dist/assets/even.JPG',
+      image: 'src/assets/even.JPG',
       title: 'Evening Elegance',
       category: 'Evening Bags',
       price: '₹890'
@@ -43,7 +43,7 @@ const FeaturedCollections: React.FC = () => {
     },
     {
       id: 5,
-      image: 'dist/assets/ess.JPG',
+      image: 'src/assets/ess.JPG',
       title: 'Essential Wallet',
       category: 'Accessories',
       price: '₹490'
