@@ -15,19 +15,19 @@ const Hero: React.FC = () => {
   const slides: SlideData[] = [
     {
       id: 1,
-      image: 'https://drive.google.com/file/d/1-OVhFahF8vTBRkF5q7I2I8NbNrx4aC0b/view?usp=drive_link',
+      image: 'https://i.ibb.co/pB6mBD2D/fall.jpg',
       title: 'Fall Collection 2025',
       subtitle: 'Timeless Elegance in Every Detail',
     },
     {
       id: 2,
-      image: 'https://drive.google.com/file/d/1Dt4qvc1L2nLLlUxGPILr5sKQQ1-cL2p4/view?usp=drive_link',
+      image: 'https://i.ibb.co/84r1jsmt/sign.jpg',
       title: 'Signature Series',
       subtitle: 'Where Luxury Meets Craftsmanship',
     },
     {
       id: 3,
-      image: 'https://drive.google.com/file/d/1dTwoppnFkjcbZ5_rZwGn5znX2t9dUYGP/view?usp=drive_link',
+      image: 'https://i.ibb.co/5h9RVFQh/shoe.jpg',
       title: 'Limited Edition',
       subtitle: 'Exclusively Crafted for the Discerning',
     },
