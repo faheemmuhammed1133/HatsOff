@@ -1,0 +1,136 @@
+.newsletter {
+  padding: var(--spacing-xxl) 0;
+  background-color: var(--color-beige);
+}
+
+.newsletter-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg);
+}
+
+.newsletter-content {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.newsletter-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: var(--spacing-md);
+  color: var(--color-black);
+}
+
+.newsletter-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--color-gray-dark);
+  margin-bottom: var(--spacing-xl);
+}
+
+.newsletter-form {
+  margin-bottom: var(--spacing-lg);
+}
+
+.form-group {
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.newsletter-input {
+  flex: 1;
+  padding: 15px var(--spacing-md);
+  border: 1px solid var(--color-gray);
+  border-right: none;
+  font-family: var(--font-secondary);
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color var(--transition-fast);
+}
+
+.newsletter-input:focus {
+  border-color: var(--color-gold);
+}
+
+.newsletter-input.error {
+  border-color: #E53935;
+}
+
+.newsletter-button {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: var(--font-secondary);
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0 var(--spacing-xl);
+  transition: background-color var(--transition-fast);
+  white-space: nowrap;
+}
+
+.newsletter-button:hover {
+  background-color: var(--color-gold);
+}
+
+.error-message {
+  color: #E53935;
+  font-size: 0.85rem;
+  margin-top: var(--spacing-sm);
+  text-align: left;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.success-message {
+  color: #2E7D32;
+  font-size: 0.85rem;
+  margin-top: var(--spacing-sm);
+}
+
+.newsletter-privacy {
+  font-size: 0.8rem;
+  color: var(--color-gray-dark);
+  max-width: 500px;
+  margin: var(--spacing-md) auto 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .newsletter {
+    padding: var(--spacing-xl) 0;
+  }
+  
+  .newsletter-title {
+    font-size: 2rem;
+  }
+  
+  .newsletter-description {
+    font-size: 1rem;
+  }
+  
+  .form-group {
+    flex-direction: column;
+  }
+  
+  .newsletter-input {
+    width: 100%;
+    border-right: 1px solid var(--color-gray);
+    border-bottom: none;
+    text-align: center;
+  }
+  
+  .newsletter-button {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .newsletter-title {
+    font-size: 1.8rem;
+  }
+}
