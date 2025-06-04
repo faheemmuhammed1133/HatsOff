@@ -16,13 +16,13 @@ const FeaturedCollections: React.FC = () => {
     {
       id: 1,
       image: 'https://i.ibb.co/DHWKjBDz/class.jpg',
+      title: 'The Classic Tote',
       category: 'Signature Collection',
       price: '₹1,890'
     },
     {
       id: 2,
       image: 'https://i.ibb.co/35n02YcW/even.jpg',
-      title: 'The Classic Tote',',
       title: 'Evening Elegance',
       category: 'Evening Bags',
       price: '₹890'
@@ -44,7 +44,6 @@ const FeaturedCollections: React.FC = () => {
     {
       id: 5,
       image: 'https://i.ibb.co/KjCc1LRm/ess.jpg',
-      title: 'The Classic Tote',',
       title: 'Essential Wallet',
       category: 'Accessories',
       price: '₹490'
