@@ -24,7 +24,7 @@ const CategoryExplorer: React.FC = () => {
     },
     {
       id: 3,
-      image: 'dist/assets/shoe.JPG',
+      image: 'src/assets/shoe.JPG',
       title: 'Travel Essentials',
       description: 'Luxury companions for your journey'
     },
