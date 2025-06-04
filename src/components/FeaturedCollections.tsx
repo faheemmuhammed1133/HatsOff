@@ -15,14 +15,14 @@ const FeaturedCollections: React.FC = () => {
   const collections: Collection[] = [
     {
       id: 1,
-      image: 'https://drive.google.com/file/d/1VbbI2NwWrrMjYX78S7z8m-xfOAjaVH8U/view?usp=drive_link',
-      title: 'The Classic Tote',
+      image: 'https://i.ibb.co/DHWKjBDz/class.jpg',
       category: 'Signature Collection',
       price: '₹1,890'
     },
     {
       id: 2,
-      image: 'https://drive.google.com/file/d/18d725TnFtI1Em3JRgF2vv-LeUcBgp4PC/view?usp=drive_link',
+      image: 'https://i.ibb.co/35n02YcW/even.jpg',
+      title: 'The Classic Tote',',
       title: 'Evening Elegance',
       category: 'Evening Bags',
       price: '₹890'
@@ -43,7 +43,8 @@ const FeaturedCollections: React.FC = () => {
     },
     {
       id: 5,
-      image: 'https://drive.google.com/file/d/1mhGlnB4BV7kvtBR-nThToEhCmYKAQc_T/view?usp=drive_link',
+      image: 'https://i.ibb.co/KjCc1LRm/ess.jpg',
+      title: 'The Classic Tote',',
       title: 'Essential Wallet',
       category: 'Accessories',
       price: '₹490'
